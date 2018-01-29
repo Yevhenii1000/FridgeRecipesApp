@@ -53,7 +53,9 @@ class FridgeViewController: UIViewController {
         let (top, bottom) = AppKeyColors.backgroundGradientColors
         view.insertGradient(gradientLayer: backgroundGradientlayer, topColor: top, bottomColor: bottom)
         
-        ViewParallaxEffect.applyMotionEffect(toView: gradientViewOfPlusButton, withMagnitude: 25.0)
+        ViewParallaxEffect.applyMotionEffect(toView: gradientViewOfPlusButton, withMagnitude: 20.0)
+        
+        print("Minor change")
         
     }
     
