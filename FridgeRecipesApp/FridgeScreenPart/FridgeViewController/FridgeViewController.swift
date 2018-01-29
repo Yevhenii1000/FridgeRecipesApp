@@ -47,9 +47,7 @@ class FridgeViewController: UIViewController {
     //MARK: - View Controller Setting Up
     
     func plusButtonSetUp() {
-        
-        let decimal = 10
-        
+                
         plusButton.setTitleColor(AppKeyColors.buttonsColor, for: .normal)
         
         let (top, bottom) = AppKeyColors.backgroundGradientColors
