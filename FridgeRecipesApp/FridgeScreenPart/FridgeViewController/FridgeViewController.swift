@@ -54,6 +54,8 @@ class FridgeViewController: UIViewController {
         view.insertGradient(gradientLayer: backgroundGradientlayer, topColor: top, bottomColor: bottom)
         
         ViewParallaxEffect.applyMotionEffect(toView: gradientViewOfPlusButton, withMagnitude: 20.0)
+        
+        print("Plus Button Set Up")
     }
     
     func navigationBarSetUp() {
