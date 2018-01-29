@@ -48,6 +48,8 @@ class FridgeViewController: UIViewController {
     
     func plusButtonSetUp() {
         
+        let decimal = 10
+        
         plusButton.setTitleColor(AppKeyColors.buttonsColor, for: .normal)
         
         let (top, bottom) = AppKeyColors.backgroundGradientColors
@@ -55,7 +57,6 @@ class FridgeViewController: UIViewController {
         
         ViewParallaxEffect.applyMotionEffect(toView: gradientViewOfPlusButton, withMagnitude: 20.0)
         
-        print("Plus Button Set Up")
     }
     
     func navigationBarSetUp() {
